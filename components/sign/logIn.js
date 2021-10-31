@@ -45,7 +45,7 @@ class logInPage extends PureComponent {
   onlogin = async (e) => {
     e.preventDefault();
     //로그인 로직 작성
-    this.props.navigation.navigate('Main');
+    this.props.navigation.navigate('bottomtab');
   };
 
   singupBtn = (e) => {
