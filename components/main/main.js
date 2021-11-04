@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import {
   SafeAreaView,
+  StatusBar, 
   StyleSheet,
   View,
   Text,
@@ -16,6 +17,7 @@ import Swiper from 'react-native-swiper';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {getStatusBarHeight} from 'react-native-status-bar-height';
 import {getBottomSpace} from 'react-native-iphone-x-helper';
+import ZoomMeeting from '../zoomMeeting/zoomMeeting';
 
 class mainPage extends PureComponent {
   constructor(props) {
@@ -86,4 +88,22 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
 });
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 export default withNavigation(mainPage);
+
+export function Zoom() {
+  return (
+    <View style={styles.container}>
+      <StatusBar style="auto" />
+      <ZoomMeeting />
+      </View>
+  );
+}
