@@ -87,9 +87,6 @@ const styles = StyleSheet.create({
     height: '100%',
     justifyContent: 'space-between',
   },
-});
-
-const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
@@ -97,6 +94,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
 export default withNavigation(mainPage);
 
 export function Zoom() {
