@@ -47,7 +47,14 @@
     "prettier": "^2.0.5",
     "react-native-builder-bob": "^0.18.1",
     "release-it": "^14.2.2",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "@react-navigation/drawer": "^5.12.5",
+    "react-native-cross-actionsheet": "^1.0.1",
+    "react-native-keyboard-area": "thomasgazzoni/react-native-keyboard-area#master",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-permissions": "^3.0.5",
+    "react-native-pure-jwt": "^2.2.2",
+    "react-native-snap-carousel": "^3.9.1"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
